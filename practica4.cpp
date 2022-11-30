@@ -12,12 +12,12 @@ int main(int argc, char* argv[])
 	Mat colorCanvas;
 	
 	// Load image from disk
-	original01 = imread("../Imagenes/02_Practicas_4-5/01_Square01.png", CV_LOAD_IMAGE_GRAYSCALE);
-	original02 = imread("../Imagenes/02_Practicas_4-5/02_Square02.png", CV_LOAD_IMAGE_GRAYSCALE);
-	original03 = imread("../Imagenes/02_Practicas_4-5/03_Square03.png", CV_LOAD_IMAGE_GRAYSCALE);
-	original04 = imread("../Imagenes/02_Practicas_4-5/04_Square04.png", CV_LOAD_IMAGE_GRAYSCALE);
-	original05 = imread("../Imagenes/02_Practicas_4-5/05_Square05.png", CV_LOAD_IMAGE_GRAYSCALE);
-	colorCanvas= imread("../Imagenes/02_Practicas_4-5/01_Square01.png", CV_LOAD_IMAGE_COLOR);
+	original01 = imread("../Imagenes/02_Practicas_4-5/Square05.png", CV_LOAD_IMAGE_GRAYSCALE);
+	original02 = imread("../Imagenes/02_Practicas_4-5/Square02.png", CV_LOAD_IMAGE_GRAYSCALE);
+	original03 = imread("../Imagenes/02_Practicas_4-5/Square04.png", CV_LOAD_IMAGE_GRAYSCALE);
+	original04 = imread("../Imagenes/02_Practicas_4-5/Square01.png", CV_LOAD_IMAGE_GRAYSCALE);
+	original05 = imread("../Imagenes/02_Practicas_4-5/Square03.png", CV_LOAD_IMAGE_GRAYSCALE);
+	colorCanvas= imread("../Imagenes/02_Practicas_4-5/Square05.png", CV_LOAD_IMAGE_COLOR);
 
 	if (!original01.data || !original02.data || !original03.data 
 		|| !original04.data || !original05.data)
