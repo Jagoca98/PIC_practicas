@@ -46,13 +46,13 @@ int main(int argc, char* argv[])
     	}
 
 	// Hough transform (Probabilistic)
-	/*vector<Vec4i> lines;
-    	HoughLinesP(filtered_img, lines, 1, CV_PI/180, 80, 30, 10);
-        for( size_t i = 0; i < lines.size(); i++ )
-   	{
-        	Vec4i l = lines[i];
-        	line(img_color, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,0,255), 3, LINE_AA);
-    	}*/
+	// vector<Vec4i> lines;
+    // 	HoughLinesP(filtered_img, lines, 1, CV_PI/180, 80, 30, 10);
+    //     for( size_t i = 0; i < lines.size(); i++ )
+   	// 	{
+    //     	Vec4i l = lines[i];
+	// 		line(img_color, Point(l[0], l[1]), Point(l[2], l[3]), Scalar(0,0,255), 3, LINE_AA);
+    // 	}
 
 	// Create window canvas to show image
 	namedWindow("Original", CV_WINDOW_AUTOSIZE);
